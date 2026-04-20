@@ -6,6 +6,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "identity_section",
   "enabled",
   "schedule_section",
   "frequency",
@@ -36,9 +37,18 @@
   "notify_section",
   "notification_emails",
   "notify_on_success",
-  "notify_on_failure"
+  "notify_on_failure",
+  "governance_section",
+  "change_ticket",
+  "control_section",
+  "policy_reference"
  ],
  "fields": [
+  {
+   "fieldname": "identity_section",
+   "fieldtype": "Section Break",
+   "label": "Identity"
+  },
   {
    "default": "0",
    "fieldname": "enabled",
@@ -229,6 +239,26 @@
    "fieldname": "notify_on_failure",
    "fieldtype": "Check",
    "label": "Notify on failure"
+  },
+  {
+   "fieldname": "governance_section",
+   "fieldtype": "Section Break",
+   "label": "Governance"
+  },
+  {
+   "fieldname": "change_ticket",
+   "fieldtype": "Data",
+   "label": "Change Ticket"
+  },
+  {
+   "fieldname": "control_section",
+   "fieldtype": "Section Break",
+   "label": "Control"
+  },
+  {
+   "fieldname": "policy_reference",
+   "fieldtype": "Data",
+   "label": "Policy Reference"
   }
  ],
  "grid_page_length": 50,
