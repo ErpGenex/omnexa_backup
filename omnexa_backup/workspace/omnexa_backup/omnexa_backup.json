@@ -1,0 +1,79 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"ob-h1\", \"type\": \"header\", \"data\": {\"text\": \"<div class=\\\"text-muted\\\">Schedule database and file backups to a server folder, optional FTP and Google Drive, with email alerts. Configure <b>Omnexa Backup Policy</b> and ensure the bench scheduler is running.</div>\", \"col\": 12}}]",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "database",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Omnexa Backup",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Omnexa Backup Policy",
+   "link_count": 0,
+   "link_to": "Omnexa Backup Policy",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Integrations",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Google Drive",
+   "link_count": 0,
+   "link_to": "Google Drive",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-20 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Omnexa Backup",
+ "name": "Omnexa Backup",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "doctype": "Has Role",
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 90.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "Form",
+   "icon": "setting",
+   "label": "Backup policy",
+   "link_to": "Omnexa Backup Policy",
+   "type": "DocType"
+  }
+ ],
+ "title": "Omnexa Backup"
+}

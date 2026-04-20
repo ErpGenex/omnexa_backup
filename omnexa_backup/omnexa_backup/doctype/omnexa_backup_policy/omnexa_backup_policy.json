@@ -1,0 +1,261 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-04-20 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "enabled",
+  "schedule_section",
+  "frequency",
+  "backup_time",
+  "weekday",
+  "every_n_hours",
+  "column_break_sch",
+  "last_backup_on",
+  "last_backup_status",
+  "last_error",
+  "content_section",
+  "include_database",
+  "include_public_files",
+  "include_private_files",
+  "local_section",
+  "local_folder",
+  "retention_days",
+  "ftp_section",
+  "enable_ftp",
+  "ftp_host",
+  "ftp_port",
+  "ftp_username",
+  "ftp_password",
+  "ftp_remote_directory",
+  "ftp_use_tls",
+  "gdrive_section",
+  "upload_to_google_drive",
+  "notify_section",
+  "notification_emails",
+  "notify_on_success",
+  "notify_on_failure"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "fieldname": "schedule_section",
+   "fieldtype": "Section Break",
+   "label": "Schedule"
+  },
+  {
+   "default": "Daily",
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Daily\nHourly\nEvery N Hours\nWeekly",
+   "reqd": 1
+  },
+  {
+   "default": "02:00:00",
+   "depends_on": "eval:doc.frequency=='Daily' || doc.frequency=='Weekly'",
+   "fieldname": "backup_time",
+   "fieldtype": "Time",
+   "label": "Time of day"
+  },
+  {
+   "depends_on": "eval:doc.frequency=='Weekly'",
+   "fieldname": "weekday",
+   "fieldtype": "Select",
+   "label": "Weekday",
+   "options": "\nMonday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday"
+  },
+  {
+   "default": "6",
+   "depends_on": "eval:doc.frequency=='Every N Hours'",
+   "fieldname": "every_n_hours",
+   "fieldtype": "Int",
+   "label": "Every N hours",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_sch",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_backup_on",
+   "fieldtype": "Datetime",
+   "label": "Last backup on",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_backup_status",
+   "fieldtype": "Data",
+   "label": "Last status",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_error",
+   "fieldtype": "Text",
+   "label": "Last error",
+   "read_only": 1
+  },
+  {
+   "fieldname": "content_section",
+   "fieldtype": "Section Break",
+   "label": "What to back up",
+   "description": "The standard Frappe backup always includes a database dump and site config. Use the toggles below to include public and/or private file archives (large)."
+  },
+  {
+   "default": "1",
+   "fieldname": "include_database",
+   "fieldtype": "Check",
+   "label": "Include database"
+  },
+  {
+   "default": "1",
+   "fieldname": "include_public_files",
+   "fieldtype": "Check",
+   "label": "Include public files"
+  },
+  {
+   "default": "1",
+   "fieldname": "include_private_files",
+   "fieldtype": "Check",
+   "label": "Include private files"
+  },
+  {
+   "fieldname": "local_section",
+   "fieldtype": "Section Break",
+   "label": "Local storage (server)"
+  },
+  {
+   "description": "Absolute path on the bench server (e.g. /var/backups/frappe/my-site). Must be writable by the Frappe process user.",
+   "fieldname": "local_folder",
+   "fieldtype": "Data",
+   "label": "Backup folder",
+   "reqd": 1
+  },
+  {
+   "default": "14",
+   "fieldname": "retention_days",
+   "fieldtype": "Int",
+   "label": "Delete local backups older than (days)",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "ftp_section",
+   "fieldtype": "Section Break",
+   "label": "FTP / FTPS upload"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_ftp",
+   "fieldtype": "Check",
+   "label": "Upload to FTP after backup"
+  },
+  {
+   "depends_on": "eval:doc.enable_ftp",
+   "fieldname": "ftp_host",
+   "fieldtype": "Data",
+   "label": "FTP host"
+  },
+  {
+   "default": "21",
+   "depends_on": "eval:doc.enable_ftp",
+   "fieldname": "ftp_port",
+   "fieldtype": "Int",
+   "label": "Port"
+  },
+  {
+   "depends_on": "eval:doc.enable_ftp",
+   "fieldname": "ftp_username",
+   "fieldtype": "Data",
+   "label": "Username"
+  },
+  {
+   "depends_on": "eval:doc.enable_ftp",
+   "fieldname": "ftp_password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "default": "/",
+   "depends_on": "eval:doc.enable_ftp",
+   "fieldname": "ftp_remote_directory",
+   "fieldtype": "Data",
+   "label": "Remote directory"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.enable_ftp",
+   "fieldname": "ftp_use_tls",
+   "fieldtype": "Check",
+   "label": "Use TLS (FTPS)"
+  },
+  {
+   "fieldname": "gdrive_section",
+   "fieldtype": "Section Break",
+   "label": "Google Drive"
+  },
+  {
+   "default": "0",
+   "description": "Uses Integrations \u2192 Google Drive (authorize there first). Uploads the same backup files created above.",
+   "fieldname": "upload_to_google_drive",
+   "fieldtype": "Check",
+   "label": "Upload to Google Drive"
+  },
+  {
+   "fieldname": "notify_section",
+   "fieldtype": "Section Break",
+   "label": "Email notifications"
+  },
+  {
+   "description": "Comma-separated email addresses.",
+   "fieldname": "notification_emails",
+   "fieldtype": "Small Text",
+   "label": "Notification emails"
+  },
+  {
+   "default": "0",
+   "fieldname": "notify_on_success",
+   "fieldtype": "Check",
+   "label": "Notify on success"
+  },
+  {
+   "default": "1",
+   "fieldname": "notify_on_failure",
+   "fieldtype": "Check",
+   "label": "Notify on failure"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 0,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-04-20 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Omnexa Backup",
+ "name": "Omnexa Backup Policy",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
