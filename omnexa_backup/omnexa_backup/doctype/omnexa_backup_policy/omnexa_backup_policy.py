@@ -61,12 +61,24 @@ class OmnexaBackupPolicy(Document):
 
 		if self.frequency == "Weekly" and not self.weekday:
 			frappe.throw(_("Select a weekday for weekly backups."))
+		if self.frequency in {"Daily", "Weekly"} and not self.backup_time:
+			frappe.throw(_("Backup time is mandatory for Daily/Weekly schedule."))
 
 		if self.frequency == "Every N Hours":
 			n = int(self.every_n_hours or 0)
 			if n < 1 or n > 168:
 				frappe.throw(_("Every N hours must be between 1 and 168."))
+		if int(self.retention_days or 0) < 1:
+			frappe.throw(_("Retention days must be at least 1."), title=_("Retention"))
 
 		if self.enable_ftp:
 			if not self.ftp_host or not self.ftp_username:
 				frappe.throw(_("FTP host and username are required when FTP upload is enabled."))
+			if not self.get_password("ftp_password"):
+				frappe.throw(_("FTP password is required when FTP upload is enabled."))
+		if (self.notify_on_success or self.notify_on_failure) and not (self.notification_emails or "").strip():
+			frappe.throw(_("Notification emails are required when email notifications are enabled."))
+		if not self.change_ticket:
+			frappe.throw(_("Change Ticket is mandatory for backup policy governance."))
+		if not self.policy_reference:
+			frappe.throw(_("Policy Reference is mandatory for backup policy governance."))

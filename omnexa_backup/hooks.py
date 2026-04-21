@@ -7,6 +7,9 @@ app_license = "mit"
 
 required_apps = ["omnexa_core"]
 
+before_install = "omnexa_backup.install.enforce_supported_frappe_version"
+before_migrate = "omnexa_backup.install.enforce_supported_frappe_version"
+
 scheduler_events = {
 	"cron": {
 		"*/15 * * * *": [
