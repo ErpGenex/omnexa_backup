@@ -1,6 +1,6 @@
 [project]
 name = "omnexa_backup"
-authors = [{ name = "Omnexa", email = "dev@omnexa.local" }]
+authors = [{ name = "ErpGenEx", email = "dev@erpgenex.com"}]
 description = "Scheduled database and files backup with local path, FTP, Google Drive, and email (omnexa_backup)"
 requires-python = ">=3.10"
 readme = "README.md"
