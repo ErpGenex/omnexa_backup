@@ -1,8 +1,8 @@
 app_name = "omnexa_backup"
 app_title = "ERPGENEX — Backup"
-app_publisher = "Omnexa"
+app_publisher = "ErpGenEx"
 app_description = "Scheduled backups with local path, FTP, Google Drive, and email (omnexa_backup)"
-app_email = "dev@omnexa.local"
+app_email = "dev@erpgenex.com"
 app_license = "mit"
 
 required_apps = ["omnexa_core"]
