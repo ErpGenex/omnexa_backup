@@ -18,4 +18,5 @@ def trigger_backup_now():
 		trigger="manual",
 	)
 
-	return {"ok": True, "message": _("Backup has been queued. Check Omnexa Backup Policy for status.")}
+	return {"ok": True, "message": _("Backup has been queued. Check Omnexa Backup Policy for status.")
+	}

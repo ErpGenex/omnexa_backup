@@ -1,0 +1,52 @@
+{
+    "name": "Omnexa Backup",
+    "module": "omnexa_backup",
+    "is_standard": 1,
+    "shortcuts": [],
+    "links": [
+        {
+            "label": "Omnexa Backup List",
+            "name": "omnexa_backup",
+            "type": "List",
+            "link_to": "omnexa_backup",
+            "onboard": 1
+        }
+    ],
+    "onboarding": [],
+    "charts": [
+        {
+            "label": "Activity Chart",
+            "chart_name": "omnexa_backup_activity",
+            "chart_type": "Line",
+            "is_standard": 1
+        }
+    ],
+    "number_cards": [
+        {
+            "label": "Total Records",
+            "number_card_name": "omnexa_backup_total",
+            "number_card_doc_type": "Number Card",
+            "is_standard": 1
+        }
+    ],
+    "reports": [
+        {
+            "label": "Omnexa Backup Report",
+            "name": "omnexa_backup_report",
+            "type": "Report",
+            "is_standard": 1
+        }
+    ],
+    "operations": [
+        {
+            "label": "Create Omnexa Backup",
+            "name": "create_omnexa_backup",
+            "type": "Action",
+            "is_standard": 1
+        }
+    ],
+    "card": {
+        "card_name": "omnexa_backup",
+        "card_style": "Default"
+    }
+}

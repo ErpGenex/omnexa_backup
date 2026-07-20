@@ -18,8 +18,8 @@ _WEEKDAY_INDEX = {
 	"Thursday": 3,
 	"Friday": 4,
 	"Saturday": 5,
-	"Sunday": 6,
-}
+	"Sunday": 6
+	}
 
 
 def _license_allows_backup() -> bool:
@@ -203,8 +203,8 @@ def _set_policy_status(status: str, err: str | None) -> None:
 		"Omnexa Backup Policy",
 		{
 			"last_backup_status": status[:140] if status else None,
-			"last_error": (err or "")[:2000] if err else None,
-		},
+			"last_error": (err or "")[:2000] if err else None
+	},
 	)
 
 
@@ -315,7 +315,8 @@ def _upload_paths_google_drive(paths: list[str]) -> None:
 	for local in paths:
 		if not local or not os.path.isfile(local):
 			continue
-		file_metadata = {"name": os.path.basename(local), "parents": [folder_id]}
+		file_metadata = {"name": os.path.basename(local), "parents": [folder_id]
+	}
 		mime = "application/gzip" if local.endswith(".gz") else ("application/x-tar" if local.endswith(".tar") else "application/octet-stream")
 		media = MediaFileUpload(local, mimetype=mime, resumable=True)
 		try:

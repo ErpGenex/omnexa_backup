@@ -14,13 +14,13 @@ scheduler_events = {
 	"cron": {
 		"*/15 * * * *": [
 			"omnexa_backup.backup_scheduler.on_scheduler_tick",
-		],
-	},
+		]},
 }
 
 before_request = ["omnexa_backup.license_gate.before_request"]
 
-doctype_js = {"Omnexa Backup Policy": "public/js/omnexa_backup_policy.js"}
+doctype_js = {"Omnexa Backup Policy": "public/js/omnexa_backup_policy.js"
+	}
 
 # translations
 # -----------
