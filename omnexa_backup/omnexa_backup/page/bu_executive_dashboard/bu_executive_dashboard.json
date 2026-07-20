@@ -1,0 +1,16 @@
+{
+	"doctype": "Page",
+	"module": "Omnexa Backup",
+	"name": "bu-executive-dashboard",
+	"page_name": "bu-executive-dashboard",
+	"standard": "Yes",
+	"title": "Executive Dashboard",
+	"roles": [
+		{
+			"role": "System Manager"
+		},
+		{
+			"role": "All"
+		}
+	]
+}
