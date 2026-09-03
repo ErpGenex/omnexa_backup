@@ -1,0 +1,20 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "disabled": 0,
+ "doctype": "Report",
+ "filters": [],
+ "is_standard": "Yes",
+ "module": "Omnexa Backup",
+ "name": "Omnexa Backup Document Summary",
+ "prepared_report": 0,
+ "query": "",
+ "ref_doctype": "Omnexa Backup Policy",
+ "report_name": "Omnexa Backup Document Summary",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

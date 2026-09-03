@@ -1,2 +1,351 @@
-Integrations,التكاملات
+Absolute path on the bench server (e.g. /var/backups/frappe/my-site). Must be writable by the Frappe process user.,Frappe — بند واجهة
+Accounting,المحاسبة
+Accounts Payable,الذمم الدائنة
+Accounts Receivable,الذمم المدينة
+Actions,إجراءات
+Administrator,المسؤول
+Agriculture,الزراعة
+AI & Intelligence,الذكاء الاصطناعي والتحليلات
+All,الكل
+All activities,كل الأنشطة
+All branches,كل الفروع
+ALM,إدارة الأصول والخصوم
+Asset Insurance,تأمين الأصول
+Assigned To,مُسند إلى
+Assigned To Me,المُسند إليّ
+Attachments,المرفقات
+Audit,التدقيق
+Backup folder,بند واجهة
+Backup folder must be an absolute path.,يجب أن بند واجهة بند واجهة.
+Backup has been queued. Check Omnexa Backup Policy for status.,Omnexa — بند واجهة
+Backup time is mandatory for Daily/Weekly schedule.,بند واجهة
+Balance Sheet,الميزانية العمومية
+Bank Unmatched Statement Lines,بنود كشف بنك غير مطابقة
+Billing & collections,الفوترة والتحصيل
+Bookings & registration,الحجوزات والتسجيل
+BOQ,جدول الكميات
+Branch,الفرع
+Budget & cost control,الميزانية وضبط التكلفة
+Buy,المشتريات
+CAM & recoveries,المصاريف المشتركة والاستردادات
+CAM Budget,ميزانية المصاريف المشتركة
+Campaign ROI,عائد الحملة
+Cancel,إلغاء
+Car Rental,تأجير السيارات
+Card Break,قسم
+Change Ticket,تذكرة تغيير
+Change Ticket is mandatory for backup policy governance.,بند واجهة
+Chart,مخطط
+Chart of Accounts,دليل الحسابات
+Closed,مغلق
+Comma-separated email addresses.,بند واجهة
+Commission Accrual,استحقاق العمولات
+Commission Schedule,جدول العمولات
+Company,الشركة
+Completed,مكتمل
+Compliance checks complete,اكتملت فحوصات الامتثال
+Compliance Exceptions,استثناءات الامتثال
+Compliance Exceptions (IFRS),استثناءات الامتثال (IFRS)
+Compliance Exceptions (Tax),استثناءات الامتثال (ضريبي)
+Compliance Exceptions Dashboard,لوحة استثناءات الامتثال
+Compliance Reports,تقارير الامتثال
+Construction,المقاولات
+Construction & Engineering,المقاولات والهندسة
+Consumer Finance,التمويل الاستهلاكي
+Core ERP,ERP الأساسي
+Cost Center,مركز التكلفة
+Country,الدولة
+Create,إنشاء
+Credit Engine,محرك الائتمان
+Credit Risk,مخاطر الائتمان
+CRM,إدارة العملاء
+Cross-module operations,عمليات متكاملة
+Currency,العملة
+Custom Documents,المستندات المخصصة
+Customer,العميل
+Daily,بند واجهة
+Dashboard,لوحة معلومات
+Delete,حذف
+Delete local backups older than (days),بند واجهة
+Design & quantities (BOQ),التصميم والكميات (جدول الكميات)
+Desk,المكتب
+Development Budget,ميزانية التطوير
+Development Project,مشروع تطوير
+Development Project Register,سجل مشاريع التطوير
+Development project register,سجل مشاريع التطوير
+Documents & Integration,المستندات والتكامل
+E-Invoice,الفاتورة الإلكترونية
+Edit,تعديل
+Education,التعليم
+Email notifications,البريد الإلكتروني إشعارات
+Enable and authorize Google Drive under Integrations → Google Drive first.,بند واجهة
+Enabled,مفعّل
+Engineering Consulting,الاستشارات الهندسية
+Erpgenex Property Mgmt,إدارة العقارات
+Erpgenex Realestate Dev,التطوير العقاري
+Erpgenex Realestate Sales,التسويق العقاري
+ERPGENEX — Core ERP,ERPGENEX — ERP الأساسي
+ERPGENEX — Dashboard,ERPGENEX — لوحة المعلومات
+Escalation Rule,قاعدة تصعيد الإيجار
+Event,حدث
+Every N Hours,بند واجهة
+Every N hours,بند واجهة
+Every N hours must be between 1 and 168.,يجب أن بند واجهة بند واجهة.
+Executive Dashboard,لوحة المدير التنفيذية
+Explore this workspace,استكشف مساحة العمل
+Factoring,التخصيم
+Field PWA,تطبيق الميدان
+Filters,المرشحات
+Finance Control Exceptions,استثناءات الضوابط المالية
+Finance Control Violations,مخالفات الضوابط المالية
+Finance Controls,الضوابط المالية
+Finance Engine,محرك التمويل
+Finance Group,المجموعة المالية
+Finance SoD Blocks,حظر فصل المهام (SoD)
+Finance Workcenter,مركز عمل المالية
+Fixed Assets,الأصول الثابتة
+Form,نموذج
+Frequency,التكرار
+Friday,الجمعة
+FTP / FTPS upload,بند واجهة / بند واجهة
+FTP host,بند واجهة
+FTP host and username are required when FTP upload is enabled.,بند واجهة
+FTP password is required when FTP upload is enabled.,بند واجهة
+Further,المزيد
+General Ledger,دفتر الأستاذ العام
+GL Account,حساب GL
+Global Defaults,الإعدادات العامة
+Google Drive,بند واجهة
+Google Drive backup folder is not ready.,بند واجهة
+Google Drive upload failed: {0},بند واجهة
+Governance,الحوكمة
+Governance Overview,نظرة عامة على الحوكمة
+Guest,زائر
+Handover & defects (snagging),التسليم والعيوب
+Handover Package,حزمة التسليم
+Healthcare,الرعاية الصحية
+Help,مساعدة
+Home,الرئيسية
+Hourly,بند واجهة
+HR,الموارد البشرية
+IFRS 16 Liability,التزام الإيجار IFRS 16
+In Progress,قيد التنفيذ
+Include database,بند واجهة
+Include private files,بند واجهة
+Include public files,بند واجهة
+Industry Solutions,حلول القطاعات
+Insights,رؤى وتحليلات
+Invalid backup folder.,بند واجهة
+Inventory & development context,المخزون وسياق التطوير
+Inventory KPI Dashboard,لوحة مؤشرات المخزون
+Inventory KPIs,مؤشرات المخزون
+Inventory Low Stock Items,أصناف منخفضة المخزون
+Inventory Reorder Needed,أصناف تحتاج إعادة طلب
+Inventory Stock Items,أصناف المخزون
+Item,الصنف
+Journal Entry,قيد يومية
+Land & project charter,الأرض وميثاق المشروع
+Land Parcel,قطعة أرض
+Language,اللغة
+Last backup on,بند واجهة
+Last error,بند واجهة
+Last Month,الشهر الماضي
+Last status,بند واجهة
+Last Week,الأسبوع الماضي
+Lead acquisition & qualification,اكتساب العملاء وتأهيلهم
+Leasing & occupancy (IFRS 16 / IPSAS rent),التأجير والإشغال (IFRS 16 / IPSAS)
+Leasing Finance,التمويل التأجيري
+Leasing Mandate,تفويض تأجير
+List,قائمة
+Local storage (server),بند واجهة
+Login,تسجيل الدخول
+Logout,تسجيل الخروج
+Maintenance — service requests,الصيانة — طلبات الخدمة
+Management Agreement,اتفاقية إدارة
+Manufacturing,التصنيع
+Menu,القائمة
+Modified,تاريخ التعديل
+Monday,الاثنين
+Mortgage Finance,التمويل العقاري
+My work,عملي
+Name,الاسم
+New,جديد
+None,لا شيء
+Notification emails,بند واجهة
+Notification emails are required when email notifications are enabled.,بند واجهة
+Notifications,الإشعارات
+Notify on failure,بند واجهة
+Notify on success,بند واجهة
+Number Card,بطاقة رقمية
+Occupancy,الإشغال
+Omnexa Accounting Settings,إعدادات محاسبة Omnexa
+Omnexa Backup,Omnexa — بند واجهة
+Omnexa Backup Activity Register,سجل Omnexa — بند واجهة
+Omnexa Backup Compliance Snapshot,Omnexa — بند واجهة
+Omnexa Backup Document Summary,ملخص Omnexa — بند واجهة
+Omnexa backup failed,Omnexa — بند واجهة
+Omnexa Backup Policy,Omnexa — بند واجهة
+Omnexa Backup Policy Register,سجل Omnexa — بند واجهة
+Omnexa Backup Status Overview,Omnexa — بند واجهة
+Omnexa backup succeeded,Omnexa — بند واجهة
+Omnexa Marketplace Settings,إعدادات سوق Omnexa
+Omnexa Purchase Settings,إعدادات مشتريات Omnexa
+Omnexa Sales Settings,إعدادات مبيعات Omnexa
+Omnexa Settings,إعدادات Omnexa
+Omnexa Stock Settings,إعدادات مخزون Omnexa
+Open,مفتوح
+Open report Compliance Exceptions Dashboard,فتح تقرير لوحة استثناءات الامتثال
+Operating Scenarios,سيناريوهات التشغيل
+Operational Risk,المخاطر التشغيلية
+Other,أخرى
+Overdue,متأخر
+Owner reporting & trust accounting,تقارير الملاك والحسابات الائتمانية
+Owner Statement,كشف حساب المالك
+Password,بند واجهة
+Payment Entry,سند قبض/صرف
+Payment Plan Item,بند خطة السداد
+Pending,قيد الانتظار
+Permit Milestone,معلم التصريح
+Platform & Administration,المنصة والإدارة
+PMC Lease Liability Schedule,جدول التزام الإيجار IFRS 16
+PMC Leasing Mandate,تفويض تأجير
+PMC Management Agreement,اتفاقية إدارة
+PMC Management Fee Summary,ملخص رسوم الإدارة
+PMC Occupancy Summary,ملخص الإشغال
+PMC Owner Statement,كشف حساب المالك
+PMC Owner Statement Register,سجل كشوف الملاك
+PMC Property,عقار
+PMC Property Unit,وحدة عقارية
+PMC Rent Aging,أعمار الإيجارات
+PMC Rent Billing Register,سجل فوترة الإيجار
+PMC Rent Roll,سجل الإيجارات
+PMC Rental Contract Register,سجل عقود الإيجار
+Policy Reference,مرجع الوثيقة
+Policy Reference is mandatory for backup policy governance.,بند واجهة
+Port,منفذ
+Portfolio & asset registry,المحفظة وسجل الأصول
+Profile,الملف الشخصي
+Profit and Loss,الأرباح والخسائر
+Project EV,القيمة المكتسبة للمشروع
+Projects & Services,المشاريع والخدمات
+Projects PM,إدارة المشاريع
+Property,عقار
+Property Management,إدارة العقارات
+Property Sales Booking Register,سجل حجوزات البيع
+Property Sales Lead,عميل مبيعات عقارية
+Purchase Invoice,فاتورة شراء
+Purchase Register,سجل المشتريات
+RE BOQ,جدول كميات التطوير
+RE Development,التطوير العقاري
+RE Handover Package,حزمة التسليم
+RE Marketing,التسويق العقاري
+RE Permit Milestone,معلم التصريح
+RE Project EV,القيمة المكتسبة للمشروع
+RE Subcontract Commitment,التزام مقاول باطن
+RE Unit Inventory,مخزون وحدات التطوير
+RE unit inventory (sales),مخزون وحدات البيع
+RE Unit Inventory Overview,نظرة عامة على مخزون الوحدات
+Real Estate,العقارات
+Refresh,تحديث
+Reload,إعادة تحميل
+Remote directory,بند واجهة
+Rent Aging,أعمار الإيجارات
+Rent billing register,سجل فوترة الإيجار
+Rent Billing Run,تشغيل فوترة الإيجار
+Rent Roll,سجل الإيجارات
+Rental Contract,عقد إيجار
+Rental contract register,سجل عقود الإيجار
+Report,تقرير
+Reservation register,سجل الحجوزات
+Reservations & unit holds,الحجوزات وحجز الوحدات
+Restaurant,المطاعم
+Retention,تثبيت
+Retention days must be at least 1.,يجب أن بند واجهة بند واجهة.
+"Return here for shortcuts, charts, and lists for **Audit & Compliance**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **التدقيق والامتثال**.
+"Return here for shortcuts, charts, and lists for **Core ERP**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **ERP الأساسي**.
+Sales Booking,حجز بيع
+Sales booking register,سجل حجوزات البيع
+Sales Commission Accrual,استحقاق عمولات المبيعات
+Sales Commission Schedule,جدول عمولات المبيعات
+Sales Invoice,فاتورة مبيعات
+Sales Lead,عميل محتمل
+Sales Portal,بوابة المبيعات
+Sales Register,سجل المبيعات
+Saturday,السبت
+Save,حفظ
+Schedule,الجدول
+Search or type a command,ابحث أو اكتب أمرًا
+Search or type a command ({0}),ابحث أو اكتب أمرًا ({0})
+Select a weekday for weekly backups.,بند واجهة
+Sell,المبيعات
+Services,الخدمات
 Settings,الإعدادات
+Shortcut,اختصار
+SME Microfinance,التمويل متناهي الصغر
+SME Retail Finance,تمويل المنشآت والتجزئة
+Stock,المخزون
+Subcontract,مقاول باطن
+Submit,إرسال
+Sunday,الأحد
+Supplier,المورد
+System Manager,مدير النظام
+Task List,قائمة المهام
+The standard Frappe backup always includes a database dump and site config. Use the toggles below to include public and/or private file archives (large).,Frappe — بند واجهة
+This Month,هذا الشهر
+This Week,هذا الأسبوع
+Thursday,الخميس
+Time of day,بند واجهة
+Timezone,المنطقة الزمنية
+Today,اليوم
+ToDo,مهمة
+Tourism,السياحة
+Trading,التجارة
+Trading & Manufacturing,التجارة والتصنيع
+Trial Balance,ميزان المراجعة
+Tuesday,الثلاثاء
+Unit,وحدة
+Unit Inventory,مخزون الوحدات
+Unit inventory & sales readiness,مخزون الوحدات وجاهزية البيع
+Unit inventory overview,نظرة عامة على مخزون الوحدات
+Unit Reservation,حجز وحدة
+Unit Reservation Register,سجل حجز الوحدات
+Update,تحديث
+Upload to FTP after backup,بند واجهة
+Upload to Google Drive,بند واجهة
+Use TLS (FTPS),TLS — بند واجهة
+Username,بند واجهة
+Uses Integrations → Google Drive (authorize there first). Uploads the same backup files created above.,بند واجهة
+Vehicle Finance,تمويل المركبات
+Warehouse,المستودع
+Wednesday,الأربعاء
+Weekday,بند واجهة
+Weekly,أسبوعي
+What to back up,بند واجهة
+Workspace,مساحة العمل
+Workspaces,مساحات العمل
+Yesterday,أمس
+You are ready to work in Core ERP.,أنت جاهز للعمل في ERP الأساسي.
+✅ Handover,✅ التسليم
+🎯 CRM,🎯 إدارة العملاء
+🏗️ Projects,🏗️ المشاريع
+🏢 Organization,🏢 التنظيم والإعداد
+🏢 Organization & Setup,🏢 التنظيم والإعداد
+🏢 Portfolio,🏢 المحفظة العقارية
+👥 HR & Users,👥 الموارد البشرية والمستخدمون
+💰 Billing · Finance · ERP,💰 الفوترة · المالية · ERP
+💰 Commissions,💰 العمولات
+💰 Finance & ERP,💰 المالية · ERP
+💰 Owner & CAM,💰 المالك والمصاريف المشتركة
+📈 Reports,📈 التقارير
+📊 Analytics,📊 التحليلات
+📊 Dashboards,📊 لوحات المعلومات
+📊 Dashboards & Portals,📊 لوحات المعلومات والبوابات
+📊 Dashboards & portals,📊 لوحات المعلومات والبوابات
+📋 Commercial,📋 التجاري
+📋 Leasing,📋 التأجير
+📋 Operations,📋 العمليات
+📐 BOQ & inventory,📐 جدول الكميات والمخزون
+📦 Inventory & Supply,📦 المخزون والتوريد
+🔗 Integration,🔗 التكامل
+🚚 Field operations,🚚 العمليات الميدانية
+🛡️ Compliance,🛡️ الامتثال
